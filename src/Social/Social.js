@@ -1,25 +1,18 @@
 import React from "react";
+import "./Social.scss";
+import { Timeline } from "react-twitter-widgets";
 
 const Social = () => {
   return (
-    <div>
+    <div className="Social_Container">
       <div className="Facebook"></div>
       <div class="Twitter">
-        <a
-          class="twitter-timeline"
-          data-height="800"
-          data-dnt="true"
-          data-theme="light"
-          data-link-color="#2B7BB9"
-          href="https://twitter.com/celmatespodcast?ref_src=twsrc%5Etfw"
-        >
-          Tweets by celmatespodcast
-        </a>
-        <script
-          async
-          src="https://platform.twitter.com/widgets.js"
-          charset="utf-8"
-        ></script>
+        <Timeline
+          dataSource={{
+            sourceType: "profile",
+            screenName: "celmatespodcast"
+          }}
+        />
       </div>
     </div>
   );

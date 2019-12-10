@@ -18,7 +18,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div className="placeholder"></div>
+        <div className="placeholder">
+          <svg></svg>
+        </div>
         <Menu
           activeSegment={this.state.activeSegment}
           hoverSelect={this.hoverSelect}

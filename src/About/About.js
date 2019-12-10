@@ -4,7 +4,8 @@ import "./About.scss";
 const About = () => {
   return (
     <div className="About_Container">
-      <div className="About_Copy">
+      <div className="Polygon"></div>
+      <p className="About_Copy">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus
         dui in lorem ornare, et dictum arcu porttitor. Aenean id vehicula sem.
         Quisque sit amet convallis est. Aliquam in volutpat erat, in congue dui.
@@ -16,7 +17,7 @@ const About = () => {
         Curabitur congue massa odio, quis tempor nibh hendrerit in. In nec ipsum
         eu felis tincidunt convallis. Sed mollis sapien quis tristique porta.
         Aenean leo lacus, interdum non hendrerit et, varius lobortis ex.
-      </div>
+      </p>
     </div>
   );
 };

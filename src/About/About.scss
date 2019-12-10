@@ -2,7 +2,11 @@
   display: flex;
   align-items: center;
   padding: 20px;
+  transform: rotate(14deg);
 }
 .About_Copy {
   font-size: 16px;
+  transform: rotate(-14deg);
+}
+.Polygon {
 }

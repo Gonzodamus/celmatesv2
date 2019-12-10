@@ -8,18 +8,27 @@ ul {
   padding: 0px;
   text-align: center;
 }
+li {
+  margin-top: 20px;
+  width: 110%;
+  margin-left: -5%;
+  transform: rotate(-14deg);
+}
 .App {
   display: flex;
   height: 100%;
 }
 .placeholder {
-  width: 45%;
+  width: 40%;
   background-color: #ccc;
 }
 .Menu {
-  width: 20%;
-  background-color: RGB(140, 75, 93);
-  margin: 0px;
+  width: 25%;
+  background-color: #6b2938;
+  transform: rotate(14deg);
+  height: 148vh;
+  margin-top: -20vh;
+  overflow: hidden;
 }
 .Display {
   width: 35%;
