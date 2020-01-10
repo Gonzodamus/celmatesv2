@@ -10,30 +10,22 @@ class Menu extends React.Component {
             onMouseOver={this.props.hoverSelect}
             onMouseOut={this.props.hoverUnSelect}
             className="Listen"
-          >
-            Listen Now
-          </li>
+          ></li>
           <li
             onMouseOver={this.props.hoverSelect}
             onMouseOut={this.props.hoverUnSelect}
             className="Subscribe"
-          >
-            Subscribe
-          </li>
+          ></li>
           <li
             onMouseOver={this.props.hoverSelect}
             onMouseOut={this.props.hoverUnSelect}
             className="Social"
-          >
-            Social Media
-          </li>
+          ></li>
           <li
             onMouseOver={this.props.hoverSelect}
             onMouseOut={this.props.hoverUnSelect}
             className="About"
-          >
-            About Us
-          </li>
+          ></li>
         </ul>
       </div>
     );

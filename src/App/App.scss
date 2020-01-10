@@ -2,32 +2,37 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 100%;
-  margin: 0px;
   padding: 0px;
-  text-align: center;
+  padding-top: 40%;
 }
-li {
-  margin-top: 20px;
-  width: 110%;
-  margin-left: -5%;
-  transform: rotate(-14deg);
-}
+
 .App {
   display: flex;
   height: 100%;
 }
-.placeholder {
+.Hero {
   width: 40%;
-  background-color: #ccc;
+  background-color: #fff;
+  img {
+    height: 80%;
+    position: absolute;
+    bottom: 0px;
+    left: 14%;
+    z-index: 2;
+  }
+}
+.Logo {
+  img {
+    height: 15%;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
 }
 .Menu {
   width: 25%;
   background-color: #6b2938;
-  transform: rotate(14deg);
-  height: 148vh;
-  margin-top: -20vh;
   overflow: hidden;
 }
 .Display {

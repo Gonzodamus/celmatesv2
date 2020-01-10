@@ -18,8 +18,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div className="placeholder">
-          <svg></svg>
+        <div className="Logo">
+          <img src="logo.png" />
+        </div>
+        <div className="Hero">
+          <img src="hero.png" />
         </div>
         <Menu
           activeSegment={this.state.activeSegment}

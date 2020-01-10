@@ -1,12 +1,9 @@
 .About_Container {
-  display: flex;
   align-items: center;
-  padding: 20px;
-  transform: rotate(14deg);
+  padding-top: 20px;
+  width: 80%;
+  margin: auto;
 }
 .About_Copy {
   font-size: 16px;
-  transform: rotate(-14deg);
-}
-.Polygon {
 }

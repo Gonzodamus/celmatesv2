@@ -1,4 +1,31 @@
 li {
-  height: 30px;
-  font-size: 20px;
+  padding-top: 10%;
+  margin-left: -10px;
+  width: 115%;
+  transform: rotate(8deg);
+  height: 50px;
+}
+.Listen {
+  background-image: url("listen.png");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: 15px;
+}
+.Subscribe {
+  background-image: url("subscribe.png");
+  background-size: 68%;
+  background-repeat: no-repeat;
+  background-position: 15px;
+}
+.Social {
+  background-image: url("social.png");
+  background-size: 82%;
+  background-repeat: no-repeat;
+  background-position: 15px;
+}
+.About {
+  background-image: url("about.png");
+  background-size: 62%;
+  background-repeat: no-repeat;
+  background-position: 15px;
 }
